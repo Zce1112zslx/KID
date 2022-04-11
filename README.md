@@ -11,7 +11,7 @@ We find Ontological Frame Knowledge can contribute to frame semantic parsing by 
 
 ## How to Run Our Code?
 ### Datapreprocess
-You can get all data files from scratch, we will also provide [links](https://drive.google.com/drive/folders/1MRqhlWwHsAVnwH-HUb8990nTasvkK-fR?usp=sharing) to download these data files in future.
+You can get some data files from scratch, we will also provide [links](https://drive.google.com/drive/folders/1MRqhlWwHsAVnwH-HUb8990nTasvkK-fR?usp=sharing) to download remaining data files in future.
 
 
 First, run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [GloVe](https://nlp.stanford.edu/projects/glove/).
