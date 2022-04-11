@@ -14,10 +14,18 @@ We find Ontological Frame Knowledge can contribute to frame semantic parsing by 
 You can get some data files from scratch, we will also provide [links](https://drive.google.com/drive/folders/1MRqhlWwHsAVnwH-HUb8990nTasvkK-fR?usp=sharing) to download remaining data files in future.
 
 
-First, run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [GloVe](https://nlp.stanford.edu/projects/glove/).
+Run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [GloVe](https://nlp.stanford.edu/projects/glove/).
 ```
 python data_preprocess.py
 ```
 
+Then run `dep_parsing.py` to build dependency trees for each sentence.
+```
+python dep_parsing.py
+```
 
+Run `build_fe_name_dict.py` to get fe_label_to_name.npy.
+```
+python build_fe_name_dict.py
+```
 
