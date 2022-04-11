@@ -14,7 +14,7 @@ We find Ontological Frame Knowledge can contribute to frame semantic parsing by 
 You can get all data files from scratch, we will also provide links to download these data files in future.
 
 
-First, run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from GloVe.
+First, run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [GloVe](https://nlp.stanford.edu/projects/glove/).
 ```
 python data_preprocess.py
 ```
