@@ -51,10 +51,11 @@ Please make sure your data folder structure as below.
 │   ├── feRelations.csv
 │   ├── frame.csv
 │   ├── frameRelations.csv
+│   ├── fulltext
 │   ├── LU.csv
 │   └── ...
 ├── test_instance_dic.npy
-
+└── train_instance_dic.npy
 ```
 
 
