@@ -44,7 +44,6 @@ Please make sure your data folder structure as below.
 │   ├── frame_frame.npz
 │   ├── inter_fe.npz
 │   ├── intra_fe.npz
-│   ├── intra.npz
 │   └── self_loop.npz
 ├── intra_frame_fe_relations.npy
 ├── parsed-v1.5
