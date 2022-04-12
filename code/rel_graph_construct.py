@@ -1,4 +1,3 @@
-from operator import sub
 import scipy.sparse as sparse
 import numpy as np
 import os
