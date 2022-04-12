@@ -3,9 +3,9 @@ Source code for "A Double-Graph Based Framework for Frame Semantic Parsing" @ NA
 ## Overview
 TL;DR: A framework for frame semantic parsing aims to utilize double-graph structure to inject knowledge into parsing and strengthen interacrions between arguments.
 
-Paper Link: [A Double-Graph Based Framework for Frame Semantic Parsing](https://openreview.net/pdf?id=STUnTbwKMXm), TODO: replace it with camera-ready version.
+Paper Link: [A Double-Graph Based Framework for Frame Semantic Parsing](https://openreview.net/pdf?id=STUnTbwKMXm), TODO: this is early version of our paper, we will replace it with camera-ready version soon.
 
-We find Ontological Frame Knowledge can contribute to frame semantic parsing by both intra-frame and inter-frame reasoning. To make use of it, we build FKG (Frame Knowledge Graph) on definitions of FEs, frame relations and FE mappings. Besides, We regard frame semantic parsing as a process to add nodes in FSG (Frame Semantic Graph) incrementally, which can strengthen relations beween arguments and interactions of subtasks in frame semantic parsing. 
+We find ontological frame knowledge can contribute to frame semantic parsing by both intra-frame and inter-frame reasoning. To make use of it, we build FKG (Frame Knowledge Graph) on definitions of FEs, frame relations and FE mappings. Besides, We regard frame semantic parsing as a process to add nodes in FSG (Frame Semantic Graph) incrementally, which can strengthen relations beween arguments and interactions of subtasks in frame semantic parsing. 
 
 ## Requirements
 
