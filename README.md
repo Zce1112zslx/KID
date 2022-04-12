@@ -70,7 +70,7 @@ Run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [G
 python data_preprocess.py
 ```
 
-Then run `dep_parsing.py` to build dependency trees for each sentence. This will modify data_instance_dic produced by `data_preprocess.py`
+Then run `dep_parsing.py` to build dependency trees for each sentence. This will modify data_instance_dic produced by `data_preprocess.py`, and we **DO NOT** parse exemplar_instance_dic because it will take a lot time. You can modify dep_parsing.py to parse exemplar_insrtance_dic if you want to pretrain on exemplar sentences.
 ```
 python dep_parsing.py
 ```
@@ -80,3 +80,4 @@ Run `build_fe_name_dict.py` to get fe_label_to_name.npy which stores a dict to m
 python build_fe_name_dict.py
 ```
 
+Run `parse_fe_xml.py` and `rel_graph_construct.py` to build adj matrix for FKG.
