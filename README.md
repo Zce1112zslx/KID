@@ -87,3 +87,26 @@ python build_fe_name_dict.py
 ```
 
 Run `parse_fe_xml.py` and `rel_graph_construct.py` to build adj matrix for FKG.
+
+### pretraining on exemplar sentences
+```
+python pretrain.py --save_model_path [prefix of your model path, e.g. ../model/pretrain_] --epoch 30
+```
+
+Fine-tuning on train instances:
+
+```
+python train.py --pretrain_model_path ../model/pretrain_30.bin --lr 6e-5 --save_model_path [path where you save fine-tuned model]
+```
+
+### Train
+```
+python train.py --save_model_path [path where you save trained model]
+```
+
+For more details of arguments, see `config.py`
+
+### Evaluate
+```
+python train.py --mode test --batch_size 2 --save_model_path [path where you save trained model]
+```
