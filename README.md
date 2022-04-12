@@ -12,6 +12,12 @@ We find ontological frame knowledge can contribute to frame semantic parsing by 
 </div>
 
 ## Requirements
+```
+pandas == 1.4.1
+pytorch == 1.11.0
+scipy == 1.8.0
+stanza == 1.3.0
+```
 
 ## How to Run Our Code?
 ### Datapreprocess
