@@ -14,6 +14,53 @@ We find ontological frame knowledge can contribute to frame semantic parsing by 
 You can get some data files from scratch, we will also provide [links](https://drive.google.com/drive/folders/1MRqhlWwHsAVnwH-HUb8990nTasvkK-fR?usp=sharing) to download remaining data files.
 
 
+#### Data Folder Structure
+
+Please make sure your data folder structure as below.
+```
+.
+├── dev_instance_dic.npy
+├── exemplar_instance_dic.npy
+├── fe_label_to_dict.npy
+├── fn1.5
+│   └── conll
+│       ├── dev
+│       ├── exemplar
+│       ├── frames
+│       ├── test
+│       └── train
+├── fndata-1.5
+│   └── ...
+├── frame-fe-dist-path
+│   ├── fe_dis_matrix.npy
+│   ├── fe_hash_idx.npy
+│   ├── fe_path_matrix.npy
+│   ├── frame_dis_matrix.npy
+│   ├── frame_hash_idx.npy
+│   └── frame_path_matrix.npy
+├── glove.6B.200d.txt
+├── graph
+│   ├── frame_fe.npz
+│   ├── frame_frame.npz
+│   ├── inter_fe.npz
+│   ├── intra_fe.npz
+│   ├── intra.npz
+│   └── self_loop.npz
+├── intra_frame_fe_relations.npy
+├── parsed-v1.5
+│   ├── FE.csv
+│   ├── feRelations.csv
+│   ├── frame.csv
+│   ├── frameRelations.csv
+│   ├── LU.csv
+│   └── ...
+├── test_instance_dic.npy
+
+```
+
+
+TODO: replace them with one single shell `data_preprocess.sh`
+
 Run `data_preprocess.py` to get data_instance_dic and word/lemma vectors from [GloVe](https://nlp.stanford.edu/projects/glove/).
 ```
 python data_preprocess.py
